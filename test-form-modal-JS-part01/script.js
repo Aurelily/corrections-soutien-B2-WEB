@@ -64,6 +64,8 @@ function createModal(mainContainer) {
     btCloseModal.addEventListener("click", () => {
         removeAllChildNodes(mainContainer)
     });
+
+    console.log(mainContainer);
     
 }  
 
